@@ -1,0 +1,114 @@
+.calendar {
+    background-color: #fff;
+    border-radius: 1rem;
+    min-height: 10rem;
+    margin: var(--gap) 0;
+    padding: var(--gap);
+}
+
+.calendar .rbc-event {
+    background-color: #ffe0fa;
+    color: #5f74f8;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+
+.calendar .rbc-toolbar-label {
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.calendar .rbc-day-bg + .rbc-day-bg {
+    border-left: 1px solid #ecedef;
+}
+
+.callDetails {
+    font-size: 1.6rem;
+    color: #030303;
+}
+
+.callDetails .icon {
+    font-size: 3rem;
+    margin-right: 1.4rem;
+}
+
+.callDetails .icon path {
+    fill: #868a8d;
+}
+
+.callDetails .prjName {
+    display: flex;
+    align-items: center;
+}
+
+.callDetails .prjName .prjTitle {
+    font-size: 1.8rem;
+}
+
+.callDetails .prjName .prjTitle span.statusPill {
+    padding: 0.3rem 1rem;
+    color: #fff;
+    border-radius: 1.2rem;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.callDetails .prjName .time {
+    color: #6b7381;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.callDetails .content {
+    padding: 2rem;
+}
+
+.callDetails button {
+    font-size: 1.7rem;
+}
+
+.callDetails .Participants {
+    padding: 1rem 0;
+}
+
+.callDetails .Participants p {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.callDetails .Participants ul {
+    list-style: none;
+}
+
+.callDetails .Participants li {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.callDetails .Participants .userIcon {
+    padding: .8rem;
+    background-color: #6b7381;
+    color: #fff;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.callDetails .Participants .userDetails .name {
+    color: #6a7280;
+    font-size: 1.4rem;
+}
+
+.callDetails .joinlink {
+    padding-top: 1rem;
+}
+
+.callDetails .joinlink p {
+    display: flex;
+    align-items: center;
+}

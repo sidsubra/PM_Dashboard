@@ -1,0 +1,14 @@
+.notifications{
+    overflow:hidden;
+}
+
+.notifications .itemContainer{
+    max-height: 25rem;
+    overflow-y: auto;
+}
+
+
+.notifications img{
+    height:14rem;
+    width: 100%;
+}

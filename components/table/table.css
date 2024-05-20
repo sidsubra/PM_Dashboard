@@ -1,0 +1,171 @@
+.myProjectsContainer.component {
+    min-height: 75vh;
+}
+
+.myProjectsContainer.component .icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.myProjectsContainer.component .tableFunctions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.2rem;
+}
+
+.myProjectsContainer.component .tableFunctions .left {
+    flex: 3;
+    display: flex;
+    align-self: end;
+}
+
+.myProjectsContainer.component .tableFunctions .left li {
+    font-size: 1.6rem;
+    list-style: none;
+    color: #525657;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.myProjectsContainer.component .tableFunctions .left li:not(:first-child) {
+    margin-left: 3rem;
+}
+
+.myProjectsContainer.component .tableFunctions .left li:hover {
+    cursor: pointer;
+}
+
+.myProjectsContainer.component .tableFunctions .left li.active {
+    color: #001d6c;
+}
+
+.myProjectsContainer.component .tableFunctions .left li.active .badge {
+    background-color: #001d6c;
+}
+
+.myProjectsContainer.component .tableFunctions .left li.active::after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: #001d6c;
+    position: absolute;
+    bottom: -1.2rem;
+}
+
+.myProjectsContainer.component .tableFunctions .left li .badge {
+    margin-left: 0.45rem;
+}
+
+.myProjectsContainer.component .tableFunctions .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    padding-bottom: 6px;
+}
+
+.myProjectsContainer.component .tableFunctions .right input {
+    margin-left: 1rem;
+    border: 1px solid lightgray;
+    outline: 0;
+    background-color: transparent;
+    width: 190px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.myProjectsContainer.component .table .th {
+    text-align: center;
+    width: 100%;
+}
+
+.myProjectsContainer.component .table .menu-option:hover {
+    cursor: pointer;
+}
+
+.myProjectsContainer.component .table .timer {
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.myProjectsContainer.component .table .actionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.myProjectsContainer.component .table .actionContainer svg {
+    font-size: 2.4rem;
+    transition: all 2s;
+}
+
+.myProjectsContainer.component .table .actionContainer > div:hover svg:not(.startSvg),
+.myProjectsContainer.component .table .actionContainer > div:hover img {
+    color: #64bb5d;
+}
+
+.myProjectsContainer.component .table .actionContainer svg {
+    font-size: 2.4rem;
+}
+
+.myProjectsContainer.component .table .devWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.myProjectsContainer.component .table .devWrapper img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.myProjectsContainer.component .table {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.myProjectsContainer.component .table .custom-data-grid {
+    font-size: 1.5rem;
+}
+
+.MuiDataGrid-cell {
+    overflow: visible !important;
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#alert-dialog-title {
+    font-size: 1.7rem;
+    font-family: "Roboto", sans-serif;
+}
+
+#alert-dialog-description {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+#actionButtons button {
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+}

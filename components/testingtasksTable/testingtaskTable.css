@@ -1,0 +1,200 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 2rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tableContainer td,.tableContainer th{
+    font-size: 1.4rem;
+}
+.badge {
+    border-radius: 50%;
+    background-color: #697077;
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adhoc{
+    min-height:5rem;
+    width: 100%;
+}
+svg{
+    font-size: 3rem;
+}
+ul{
+    margin-block-start:0;
+    padding-inline-start:0;
+}
+.details{
+    display: flex;
+    align-items: stretch;
+    padding:1rem .5rem;
+    background-color:#f5f8fa;
+    margin:1rem 0;
+    min-height:4rem;
+}
+.title th{
+    font-weight: 600;
+}
+
+.details .description{
+    width:100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.actionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pill{
+    width:10rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding:.2rem .4rem;
+    margin:0 auto;
+}
+
+/**** Table Headers ****/
+
+ .tableFunctions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.2rem;
+}
+
+ .tableFunctions .left {
+    flex: 3;
+    display: flex;
+    align-self: end;
+}
+
+ .tableFunctions .left li {
+    font-size: 1.6rem;
+    list-style: none;
+    color: #525657;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+ .tableFunctions .left li:not(:first-child) {
+    margin-left: 3rem;
+}
+
+ .tableFunctions .left li:hover {
+    cursor: pointer;
+}
+
+ .tableFunctions .left li.active {
+    color: #001d6c;
+}
+
+ .tableFunctions .left li.active .badge {
+    background-color: #001d6c;
+}
+
+ .tableFunctions .left li.active::after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: #001d6c;
+    position: absolute;
+    bottom: -1.2rem;
+}
+
+ .tableFunctions .left li .badge {
+    margin-left: 0.45rem;
+}
+
+.tableFunctions .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    padding-bottom: 6px;
+}
+
+.tableFunctions .right input {
+    margin-left: 1rem;
+    border: 1px solid lightgray;
+    outline: 0;
+    background-color: transparent;
+    width: 190px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.tableFunctions .right .addNew{
+    display: flex;
+    align-items: center;
+    background-color: #01315f;
+    color:#fff;
+    border:0;
+    outline:0;
+    padding:.8rem 2rem;
+    margin-left:2rem;
+    border-radius: .7rem;
+}
+.tableFunctions .right .addNew:hover{
+    cursor:pointer;
+}
+
+.tableFunctions .right .addNew span{
+    margin-left:.5rem;
+}
+.tableFunctions .right .addNew svg{
+    font-size: 2rem;
+}
+
+/***********************/
+
+#alert-dialog-title{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.minsRequired{
+    font-size: 1.5rem;
+}
+
+
+.minsRequired input {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-left:1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  
+.minsRequired label{
+    color:#3b454c;
+}
+  .minsRequired input:focus,
+  .minsRequired input:hover,
+  .minsRequired input:active {
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+.tableContainer h1{
+    margin-bottom:0 !important;
+}

@@ -1,0 +1,97 @@
+.app.dark {
+    background-color: #111827;
+    color: #fff;
+}
+
+.app.dark .component {
+    background-color: #1f2937;
+}
+
+.app.dark .component svg path {
+    color: #2D3748;
+}
+
+.app.dark .navbar {
+    background-color: #1f2937;
+}
+
+.app.dark .navbar .top li svg path {
+    fill: #fff;
+}
+
+.app.dark .navbar .top li.active {
+    color: #fff;
+}
+
+.app.dark .item .description .notificationTime,
+.app.dark .usercard .text .zuid {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.app.dark .activeTask {
+    background-color: #111827;
+    color: #fff;
+}
+
+.app.dark .activeTask .timerContainer {
+    background-color: #1f2937;
+}
+
+.app.dark .myProjectsContainer .tableFunctions .left li {
+    color: #d2c8ca;
+}
+
+.app.dark .myProjectsContainer .tableFunctions .left li.active {
+    color: #fff;
+}
+
+.app.dark .myProjectsContainer .tableFunctions .left li.active .badge {
+    background-color: #fff;
+    color: #1f2937;
+}
+
+.app.dark .myProjectsContainer .tableFunctions .left li.active::after {
+    background-color: #fff;
+}
+
+.app.dark .head {
+    color: #fff;
+}
+
+.app.dark .custom-data-grid {
+    background-color: #111827;
+}
+
+.app.dark .custom-data-grid .MuiDataGrid-cell {
+    color: #fff;
+}
+
+.app.dark .custom-data-grid .MuiDataGrid-cell .prj {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.app.dark .myProjectsContainer .tableFunctions .right input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.app.dark .myProjectsContainer .tableFunctions .right input::placeholder {
+    color: #999;
+}
+
+.app.dark .actionContainer {
+    align-items: center;
+}
+
+.app.dark .myProjectsContainer .table .timer {
+    background-color: #1f2937;
+}
+
+.app.dark .card {
+    background-color: #111827;
+}

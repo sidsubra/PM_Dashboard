@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+}
+:root{
+    --gap:1rem;
+    --quickNavWidth: 7rem;
+    --asideWidth:28rem;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f2f2f2;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color:#2D3748;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+}
+
+body .component{
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: var(--gap) 0;
+    padding:2rem;
+}
+
+.outerContainer{
+    display: flex;
+    gap: var(--gap);
+    margin-left: calc(var(--quickNavWidth) + var(--gap));
+    height: 100vh;
+    overflow: hidden;
+}
+
+section.container{
+    height: 100vh;
+    overflow-y: auto;
+    }
+
+    section.container.page1,section.container.page3{
+        width:calc( 100% - (var(--asideWidth) + calc(2 * var(--gap))));
+    }
+    section.container.page2,section.container.page3{
+        width:100%;
+    }
+
+    section.container.page3{
+        background-color: #fff;
+        padding: 2rem;
+       margin-top:1rem;
+        border-radius: 1rem;
+    }
+
+
+    
+    section.container h1{
+        margin:.5rem 0 1.75rem 0;
+        font-size: 2.2rem;
+        font-weight:400;
+    }
+
+
+
+    .badge{
+        border-radius: 50%;
+        background-color: #697077;
+        width:1.6rem;
+        height:1.6rem;
+        padding:1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color:#fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

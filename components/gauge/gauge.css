@@ -1,0 +1,31 @@
+.chartContainer{
+    background-color: #f5f8fa;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top:2rem;
+}
+
+.chartContainer .chartFilter{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    list-style-type: none;
+}
+
+.chartContainer .chartFilter li{
+    width:35%;
+    background-color: #fff;
+    padding:.5rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.chartContainer .chartFilter li:hover{
+    cursor: pointer;
+}
+
+.chartContainer .chartFilter li.active{
+    color:#0177fa;
+}

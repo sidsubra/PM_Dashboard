@@ -1,0 +1,98 @@
+.activeTask {
+    display: flex;
+    flex-direction: column;
+    background-color: #edf3f78e;
+    color: #5d697b;
+    border-radius: 0.8rem;
+    flex: 1;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+  .activeTask .projectName {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  .activeTask .subStage {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .activeTask .timerContainer {
+    width: 100%;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    height: 8rem;
+    margin-bottom: 1rem;
+    padding: 4rem 0 6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    position: relative;
+  }
+  .activeTask .timerContainer span {
+    margin: 0 0.6rem;
+    position: relative;
+  }
+  .activeTask .timerContainer span:after {
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: -1.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #c7c7c7;
+  }
+  .activeTask .timerContainer span#hrs:after {
+    content: "hours";
+  }
+  .activeTask .timerContainer span#mins:after {
+    content: "mins";
+  }
+  .activeTask .timerContainer span#secs:after {
+    content: "secs";
+  }
+  .activeTask .timerContainer .btnContainer {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    display: flex;
+    gap: 1rem;
+  }
+  .activeTask .timerContainer .btnContainer .btn {
+    background-color: #e2f4ff;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .activeTask .timerContainer .btnContainer .btn:hover {
+    cursor: pointer;
+  }
+  .activeTask .timerContainer .btnContainer .btn:hover svg {
+    transition: all 0.2s;
+    transform: scale(1.1);
+  }
+  .activeTask .timerContainer .btnContainer .btn svg {
+    font-size: 2.4rem;
+  }
+  .activeTask .timerContainer .btnContainer .btn svg path {
+    color: #fff;
+  }
+  .activeTask .timerContainer .btnContainer .btn.play {
+    background-color: #8ce501;
+  }
+  .activeTask .timerContainer .btnContainer .btn.stop {
+    background-color: #fd4c42;
+  }
+  .activeTask .timerContainer .btnContainer .btn.pause {
+    background-color: #28a4ff;
+  }
+  .activeTask .noActiveTasks {
+    margin: 1.5rem auto;
+    font-size: 1.6rem;
+  }
+  

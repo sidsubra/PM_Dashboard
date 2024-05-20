@@ -1,0 +1,53 @@
+.progressBarContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+    gap: 0.6rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.progressBarContainer .progressDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBarContainer .progressDetails p {
+    font-size: 1.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 13rem;
+}
+
+.progressBarContainer .progressDetails p.percentage {
+    color: #aaa;
+}
+
+.progressBarContainer .progressBarOuter {
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: lightcyan;
+    overflow: hidden;
+    border: 0.5px solid lightgray;
+}
+
+.progressBarContainer .progressBarOuter .progressBar {
+    height: 0.8rem;
+}
+
+.progressBarContainer .progressBarOuter .progressBar.progressBarGreen {
+    background-color: green;
+}
+
+.progressBarContainer .progressBarOuter .progressBar.progressBarYellow {
+    background-color: #f6c900;
+}
+
+.progressBarContainer .progressBarOuter .progressBar.progressBarBlue {
+    background-color: #0198e8;
+}
+
+.progressBarContainer .progressBarOuter .progressBar.progressBarRed {
+    background-color: red;
+}
